@@ -160,7 +160,7 @@ function App() {
       <OperationButton operation= "+" dispatch={dispatch} />
       <DigitButton digit = "0" dispatch={dispatch} />
       <DigitButton digit = "." dispatch={dispatch} />
-      <button onClick={() =>dispatch( {type: ACTIONS.EVALUATE_DIGIT})}>=</button>
+      <button onClick={() =>dispatch( {type: ACTIONS.EVALUATE_DIGIT})} className="span-two">=</button>
 
     </div>
   )
